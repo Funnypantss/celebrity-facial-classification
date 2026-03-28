@@ -1,0 +1,26 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Data (large files — store externally or use Git LFS)
+data/raw/
+data/processed/
+data/dataset.csv
+
+# Models
+models/saved/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output
+*.png
+dist/
+build/
+*.egg-info/
